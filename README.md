@@ -46,8 +46,10 @@ Três famílias: exatidão numérica (o gabarito é calculado pelas mesmas consu
 |---|---|---|---|---|
 | r1 | 18/18 | 11/12 | 6,8 s | 10,4 s |
 | r2 | 17/18 | 12/12 | 7,1 s | 10,0 s |
-| r3 | 18/18 | 12/12 | 7,3 s | 12,0 s |
+| r3 | 18/18 | 12/12 * | 7,3 s | 12,0 s |
 | r4 | 18/18 | 12/12 | 7,6 s | 12,0 s |
+
+\* Na r3 o cenário 23 foi apontado como falha pelo verificador e reavaliado: o agente disse que não sabia e citou só um valor vindo de ferramenta. Detalhe em `docs/agente/AVALIACAO.md`.
 
 120 execuções, **2 falhas reais** do agente (as duas: desistir antes de consultar a ferramenta), fechadas por regra no prompt. **98,3% consolidado, 100% na última rodada.** Zero valores em R$ sem origem em ferramenta na r4. Os relatórios com as 30 respostas de cada rodada estão em `docs/agente/avaliacao-r1.md` a `r4.md`.
 

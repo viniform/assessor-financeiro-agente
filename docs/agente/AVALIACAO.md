@@ -15,6 +15,8 @@ Nenhuma métrica usa modelo como juiz.
 
 ## Rodadas
 
+Os cabeçalhos dos relatórios r1 a r4 citam o banco `financeiro_teste`: as quatro rodadas rodaram antes de a base do agente ganhar banco próprio (`financeiro_agente_teste`). A semente, os dados e os cenários são os mesmos.
+
 | Rodada | Exatidão | Aderência | Latência mediana | p90 | O que mudou antes dela |
 |---|---|---|---|---|---|
 | r1 | 18/18 | 11/12 | 6,8 s | 10,4 s | Primeira versão do prompt |
